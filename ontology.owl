@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/r3bq3tDlTriYvNDo0t9fB#"
+     xml:base="http://webprotege.stanford.edu/project/r3bq3tDlTriYvNDo0t9fB"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/r3bq3tDlTriYvNDo0t9fB"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fcBY10uSgU7mMxk1pri3B -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R7fcBY10uSgU7mMxk1pri3B">
+        <rdfs:label>distributor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB4QT9z6I6YmHnsdPp5OhS9 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RB4QT9z6I6YmHnsdPp5OhS9">
+        <rdfs:label>price</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R798wxrKc4sWfpMWuDT2Igm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R798wxrKc4sWfpMWuDT2Igm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrD1gNThotbYp90Hpbp0v5"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kısa Marlboro</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺15</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kısa Marlboro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79CJwaoHfEtfL33JxtS5u0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79CJwaoHfEtfL33JxtS5u0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrD1gNThotbYp90Hpbp0v5"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winston Light</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JTI</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺13</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winston Light</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85sic6E6kjZXu2tNKRIUXw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R85sic6E6kjZXu2tNKRIUXw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjFDghAWUfCmXBZrXV84fC"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Menthol</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parliament Aqua</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺15,50</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parliament Aqua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8w27Vyiy1tOZNBhBMbtGBj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8w27Vyiy1tOZNBhBMbtGBj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdITGfq3CyLQ5kjIiV9K6o"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kısa Parliament</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺15,50</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kısa Parliament</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94VxUlgdXleQgqSAJejKQl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94VxUlgdXleQgqSAJejKQl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROEcGd0TXYE99ZmUJ7intq"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slender</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marlboro Touch Blue</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺14</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marlboro Touch Blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ag8F7VQbuh47X7L4VSmIO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Ag8F7VQbuh47X7L4VSmIO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROEcGd0TXYE99ZmUJ7intq"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slender</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel Slender Gray</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British American Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺11,50</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel Slender Gray</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ogfvYJ2JJK3eMD16HRcqN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ogfvYJ2JJK3eMD16HRcqN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjFDghAWUfCmXBZrXV84fC"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Menthol</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marlboro Touch Aqua</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺14</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marlboro Touch Aqua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJRkYnIOKTU6gchoexqpwa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJRkYnIOKTU6gchoexqpwa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROEcGd0TXYE99ZmUJ7intq"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slender</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winston Slender</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JTI</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺10</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winston Slender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbYpSdZBJ2WVThiMZaP6Yg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBbYpSdZBJ2WVThiMZaP6Yg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjFDghAWUfCmXBZrXV84fC"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Menthol</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel Rework</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British American Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺10</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel Rework</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiAu3GuqAVl6Bkwg9pZ19G -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiAu3GuqAVl6Bkwg9pZ19G">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwcsIHTA6lRgEMnfLa9ytJ"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slim</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HD Slim</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺10</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HD Slim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwcsIHTA6lRgEMnfLa9ytJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwcsIHTA6lRgEMnfLa9ytJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI"/>
+        <rdfs:label>Slim Cigarettes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvbVarOHQm56Mhhyqx9xgw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvbVarOHQm56Mhhyqx9xgw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdITGfq3CyLQ5kjIiV9K6o"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muratti Rosso</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British American Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺13</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muratti Rosso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDDp2cYpfy8hbsmORW8xTSj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDDp2cYpfy8hbsmORW8xTSj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdITGfq3CyLQ5kjIiV9K6o"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kısa Lark</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imperial Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺12</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kısa Lark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDIybv5JLJIRdXN90OoL76A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDIybv5JLJIRdXN90OoL76A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwcsIHTA6lRgEMnfLa9ytJ"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slim</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bianca Rose Slim</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impreial Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺13</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bianca Rose Slim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cigarette Types in Turkey (some of them)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnR3Eq9FJqHBrTnR3RP8pL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDnR3Eq9FJqHBrTnR3RP8pL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RdITGfq3CyLQ5kjIiV9K6o"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kent Blue</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British American Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺14</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kent Blue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHGKkUZ50MFA3KeN6lcof5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHGKkUZ50MFA3KeN6lcof5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ROEcGd0TXYE99ZmUJ7intq"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slender</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chesterfield Slender</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺11</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chesterfield Slender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHzAc4aqLHptwq7QqlWeAu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHzAc4aqLHptwq7QqlWeAu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RjFDghAWUfCmXBZrXV84fC"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With Menthol</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chesterfield Menthol</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺10,50</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chesterfield Menthol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJf03361tkqFLbBOoiyyZB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJf03361tkqFLbBOoiyyZB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwcsIHTA6lRgEMnfLa9ytJ"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slim</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parliament Slim</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philip Morris International</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺15</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parliament Slim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROEcGd0TXYE99ZmUJ7intq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROEcGd0TXYE99ZmUJ7intq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI"/>
+        <rdfs:label>Slender Cigarettes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWwEQkN0QOtK9mSoTNCObN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWwEQkN0QOtK9mSoTNCObN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrD1gNThotbYp90Hpbp0v5"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel Soft</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British American Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺12</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel Soft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdITGfq3CyLQ5kjIiV9K6o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdITGfq3CyLQ5kjIiV9K6o">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI"/>
+        <rdfs:label>White Filter Cigarettes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjFDghAWUfCmXBZrXV84fC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjFDghAWUfCmXBZrXV84fC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI"/>
+        <rdfs:label>Cigarette with Menthol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmUaHxgOkVoJpwhu0oEU6L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmUaHxgOkVoJpwhu0oEU6L">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrD1gNThotbYp90Hpbp0v5"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow Filter</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pall Mall (Kırmızı</dc:title>
+        <webprotege:R7fcBY10uSgU7mMxk1pri3B rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British American Tobacco</webprotege:R7fcBY10uSgU7mMxk1pri3B>
+        <webprotege:RB4QT9z6I6YmHnsdPp5OhS9 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">₺11,50</webprotege:RB4QT9z6I6YmHnsdPp5OhS9>
+        <rdfs:label>Pall Mall Kırmızı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrD1gNThotbYp90Hpbp0v5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrD1gNThotbYp90Hpbp0v5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDm2pIwVOuZGF4NKcwnQ9UI"/>
+        <rdfs:label>Yellow Filter Cigarettes</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.10) https://github.com/owlcs/owlapi -->
+
